@@ -1,0 +1,207 @@
+header{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    .common-header{
+        width: 1519.200px;
+        height: 194px;
+
+        .container{
+            width: 1200px;
+            margin:0 auto;
+            display:flex;
+            align-items: center;
+            padding: 0 24px;
+            flex-wrap: wrap;
+            padding: 39px 10px 36px 0;
+
+            .head-social{
+                width: 266.400px;
+                height: 28px;
+                display: flex;
+                align-items: center;
+                gap:10px;
+               a{
+                color: #929292;
+                font-size: 13px;
+
+                &:hover{
+                    color: #ee3333;
+                }
+               }
+
+            }
+
+            .logo{
+                width: 561.600px;
+                height: 30.275px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a{
+                    img{
+                        width: 107px;
+                        height: 100%;
+                    }
+                }
+            }
+
+            .head-icon{
+                width: 266.400px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                gap:20px;
+                a{
+                    display: flex;
+                    align-items: center;
+                    font-size: 18px;
+                    color: #292929;
+
+                    span{
+                        color: red;
+                    }
+                }
+
+                
+
+            }
+
+
+            .main-menu{
+                width: 1180.800px;
+                height: 94px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+               
+                
+
+                ul{
+                    display: flex;
+
+                   
+                    li{
+                        position: relative;
+                        &:hover .sub-menu{
+                            opacity: 1;
+                            
+                        }
+
+                        &:hover .mega-menu{
+                            opacity: 1;
+                        }
+                        a{
+                            font-size: 13px;
+                            line-height: 14px;
+                            font-weight: 600;
+                            font-family: "Poppins", sans-serif;
+                            color: #292929;
+                            text-transform: uppercase;
+                            display: block;
+                            transition: all 0.3s;
+                            margin: 0 37px 0 0;
+
+
+                            &:hover{
+                                color:red;
+                            }
+
+                        }
+                    }
+
+
+                    .sub-menu{
+                        position: absolute;
+                        left: 0;
+                        top: 100%;
+                        margin-top: 30px;
+                        padding: 20px 0;
+                        background-color: #ffffff;
+                        box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.6);
+                        transition: all 0.3s ease 0s;
+                        width: 210px;
+                        display: flex;
+                        flex-direction: column;
+                        opacity: 0;
+                        li{
+                            margin-bottom: 5px;
+                            &:hover a{
+                                color: red;
+                                padding-left: 25px;
+                            }
+
+
+                            a{
+                                font-family: "Poppins", sans-serif;
+                                color: #292929;
+                                display: block;
+                                font-size: 13px;
+                                line-height: 35px;
+                                font-weight: 400;
+                                padding: 0 20px;
+                            }
+
+                            
+                        }
+
+                        
+
+                    }
+
+                    .mega-menu{
+                        position: absolute;
+                        left: 0;
+                        top: 100%;
+                        margin-top: 30px;
+                        background-color: #ffffff;
+                        border: 1px solid #eeeeee;
+                        border-bottom: 2px solid #ee3333;
+                        text-align: left;
+                        z-index: 999;
+                        width: 300px;
+                        display: flex;
+                        flex-direction: column;
+                        padding: 20px 0;
+                        box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.6);
+                        transition: all 0.5s ease 0s;
+                        opacity: 0;
+                       
+
+                        li{
+                            margin-bottom: 5px;
+                            &:hover a{
+                                color:#ee3333;
+                            }
+
+                            a{
+                                font-family: "Poppins", sans-serif;
+                                color: #292929;
+                                display: block;
+                                font-size: 13px;
+                                line-height: 35px;
+                                font-weight: 400;
+                                padding: 0 20px;
+
+                            }
+                        }
+
+                 
+
+
+                        
+                    }
+
+                }
+
+            }
+
+
+
+        }
+
+    }
+}
