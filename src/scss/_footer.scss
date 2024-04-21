@@ -64,6 +64,7 @@ footer{
             width: 600px;
             display: flex;
             justify-content: space-between;
+            gap:35px;
 
             .opening{
                 h4{
@@ -111,6 +112,7 @@ footer{
                 }
 
                 ul{
+                    width: 150px;
                     li{
                         margin-bottom: 14px;
                         a{
@@ -132,7 +134,7 @@ footer{
                 }
             }
 
-            .about{
+            .about-us{
                 h4{
                     font-size: 16px;
                     font-weight: 600;
